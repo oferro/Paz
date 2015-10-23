@@ -1,0 +1,83 @@
+body {
+	background-image: url('/Paz/images/header_bg.png');
+	background-repeat: repeat-x; 
+	direction:rtl;
+	text-align: right;
+}
+
+#container{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#header {
+	position:relative;
+	height: 140px;
+}
+
+#logo {
+	background-image: url('/Paz/images/paz_logo.png');
+	position: absolute;
+	width:142px;
+	height: 93px;
+	bottom: 15px;
+	right: -8px;
+
+}
+
+#serch-box{
+	position: absolute;
+	top:20px;
+	left:10px;
+}
+
+#inpt-srch{
+	padding: 0px;
+	height: 16px;
+	float: right;
+}
+
+#srch-button{
+	width:19px;
+	height: 19px;
+	bottom:0px;
+	display:inline-block;
+	background-image: url('/Paz/images/search_button.png');
+}
+
+#lang {
+	float: right;
+	padding: 3px 0px 0px 8px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+ul, li {
+	list-style: none;
+	text-decoration: none;
+}
+
+#mainmenu {
+	position: absolute;
+	left:0px;
+	top: 30px;
+}
+
+#mainmenu ul li {
+	display: inline-block;
+	text-decoration: none;
+	font: bold 16px "Arial";
+	color: red;
+}
+
+#mainmenu ul li a {
+	color: white;
+}
+
+#mnu-hom {
+	background: url('/Paz/images/menu_home.png') 17px 15px no-repeat;
+	background-position: top;
+}
+.spec {
+	margin: 0 8px;
+}
