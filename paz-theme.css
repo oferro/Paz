@@ -5,6 +5,16 @@ body {
 	text-align: right;
 }
 
+ul, li {
+	list-style: none;
+	text-decoration: none;
+}
+
+p, h3 {
+	margin: 0;
+	padding: 0;
+}
+
 #container{
 	max-width: 900px;
 	margin: 0 auto;
@@ -12,7 +22,7 @@ body {
 
 #header {
 	position:relative;
-	height: 140px;
+	height: 115px;
 }
 
 #logo {
@@ -20,21 +30,22 @@ body {
 	position: absolute;
 	width:142px;
 	height: 93px;
-	bottom: 15px;
+	bottom: 0px;
 	right: -8px;
 
 }
 
 #serch-box{
 	position: absolute;
-	top:20px;
+	top:10px;
 	left:10px;
 }
 
 #inpt-srch{
-	padding: 0px;
+	padding: 0 10px 0 0;
 	height: 16px;
 	float: right;
+	border-top-right-radius: 0.8em;
 }
 
 #srch-button{
@@ -47,37 +58,190 @@ body {
 
 #lang {
 	float: right;
-	padding: 3px 0px 0px 8px;
+	padding: 5px 0px 0px 8px;
 	font-size: 12px;
 	font-weight: bold;
-}
-
-ul, li {
-	list-style: none;
-	text-decoration: none;
-}
-
-#mainmenu {
-	position: absolute;
-	left:0px;
-	top: 30px;
-}
-
-#mainmenu ul li {
-	display: inline-block;
-	text-decoration: none;
-	font: bold 16px "Arial";
-	color: red;
-}
-
-#mainmenu ul li a {
 	color: white;
 }
 
+
+#mainmenu {
+	position: relative;
+	right:120px;
+	top: 50px;
+}
+
+.menlvl-1 {
+	padding: 0 0 10px 0;
+	margin-right: 20px;
+}
+
+.menlvl-1 li {
+	display: inline-block;
+	list-style:none;
+	font: bold 15px "Arial";
+}
+
+.menlvl-1 li:hover > .mnulvl-2 {
+	display: list-item;
+	position: absolute;
+	top: 60px;
+}
+
+.menlvl-1 li a {
+	color: white;
+	text-decoration: none;
+}
+
 #mnu-hom {
-	background: url('/Paz/images/menu_home.png') 17px 15px no-repeat;
-	background-position: top;
+	background: url('/Paz/images/menu_home.png')no-repeat  17px 15px;
+	background-position: right;
+	display:block;
+	width: 18px;
+	height: 15px;
 }
-.spec {
+
+.mnulvl-2 {
+	display: none;
+	position:absolute;
+	top:90px;
+	border: solid 2px blue;
+}
+
+.mnulvl-2 li {
+	width: 170px;
+	position: relative;
+	clear: both;
+}
+
+.sep {
 	margin: 0 8px;
+	color: Wheat;
 }
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background-image: url('/Paz/images/footer_bg.png');
+	background-repeat: repeat-x; 
+
+}
+
+#footer-menu {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#footer-menu .menlvl-1 {
+	margin: 0;
+	padding: 0;
+}
+
+#footer-menu .menlvl-1 li {
+	font-size: 14px;
+	font-weight:normal;
+	padding: 5px 0;
+}
+
+#footer-menu .sep {
+	margin: 0 2px;
+}
+
+#fblink {
+	background: url('/Paz/images/fb_icon.png') no-repeat 0 0;
+	width: 18px;
+	height: 18px;
+	margin: 0;
+	padding: 0;
+	display:block;
+}
+
+/*  section  */
+
+section {
+	position: relative;
+}
+
+/*  tab-1  */
+
+#tab-1 {
+	position: relative;
+}
+
+.tab {
+	position:relative;
+	width: 293px;
+	height: 355px;
+	float: right;
+	padding: 0px 3px;
+}
+
+.bg {
+	border-bottom-right-radius: 0.8em;
+}
+
+.text-tab {
+	position: relative;
+	width: 228px;
+	height: 77px;
+	bottom: 110px;
+	right: 10px;
+	padding: 10px;
+	font-size: 13px;
+	color: white;
+	background: url('/Paz/images/hp_tab_text_bg.png') no-repeat 0 0;
+}
+
+.text-tab p {
+	margin-top: 4px;
+}
+
+.text-tab a {
+	position:relative;
+	color: white;
+	float: left;
+	bottom: 10px;
+	padding-left: 10px;
+	background: url("/Paz/images/read_more_white.png") no-repeat left center;
+}
+
+/*  tab-2  */
+
+#tab-2 {
+	position: relative;
+}
+
+.cube {
+	position: relative;
+	float: right;
+	width: 252px;
+	height: 216px;
+	margin: 15px 3px;
+	padding: 0 20px;
+	background: url('/Paz/images/small_cube_bg.png') no-repeat 0 0;
+}
+
+.cube h3 {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 0;
+} 
+
+.cube a {
+	position:absolute;
+	left: 10px;
+	bottom: 10px;
+	padding-left: 10px;
+	font-size:12px;
+	background: url("/Paz/images/read_more_yellow.png") no-repeat left center;
+}
+
+#cube-road img {
+	float:left;
+}
+
+#cube-road a {
+	position:static;
+}
+

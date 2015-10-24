@@ -13,54 +13,242 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
+		<!-- 1. Link to jQuery (1.8 or later), -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- 33 KB -->
+
+		<!-- fotorama.css & fotorama.js. -->
+		<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+		<!-- 3 KB -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+		<!-- 16 KB -->
+
 		<link rel="stylesheet" href="paz-theme.css" />
 	</head>
 
 	<body>
 		<div id="container">
 			<div id="header">
-				<a id="logo" href="http://www.paz.co.il"></a>
+				<a id="logo" href="http://www.paz.co.il" target="_blank"></a>
 				<div id="serch-box">
 					<a id="lang">English</a>
 					<input id="inpt-srch" type="text" name="serchbox" placeholder="רשום מילת חיפוש" />
 					<a id="srch-button" href="#"></a>
 				</div>
 				<nav id="mainmenu">
-					<ul>
+					<ul class="menlvl-1">
 						<li>
-							<a id="mnu-hom" href="paz-index.html">.     .</a>
+							<a id="mnu-hom" href="index-paz.html"></a>
 						</li>
-						<li class="spec">|</li>
+						<li class="sep">
+							|
+						</li>
 						<li>
 							<a href="#">אודות</a>
+							<ul class="mnulvl-2">
+								<li>
+									<a href="#">אודות</a>
+								</li>
+								<li>
+									<a href="#">היסטוריה</a>
+								</li>
+								<li>
+									<a href="#">חזון וערכים</a>
+								</li>
+								<li>
+									<a href="#">מבנה הקבוצה</a>
+								</li>
+								<li>
+									<a href="#">חברי דירקטוריון</a>
+								</li>
+								<li>
+									<a href="#">הנהלת הקבוצה</a>
+								</li>
+								<li>
+									<a href="#">פרסים והוקרה</a>
+								</li>
+							</ul>
 						</li>
-						<li class="spec">|</li>
+						<li class="sep">
+							|
+						</li>
 						<li>
 							<a href="#">חטיבות</a>
 						</li>
-						<li class="spec">|</li>
+						<li class="sep">
+							|
+						</li>
 						<li>
 							<a href="#">אחריות תאגידית</a>
 						</li>
-						<li class="spec">|</li>
+						<li class="sep">
+							|
+						</li>
 						<li>
 							<a href="#">קשרי משקיעים</a>
 						</li>
-						<li class="spec">|</li>
+						<li class="sep">
+							|
+						</li>
 						<li>
 							<a href="#">התחנות שלנו</a>
 						</li>
-						<li class="spec">|</li>
+						<li class="sep">
+							|
+						</li>
 						<li>
 							<a href="#">קריירה</a>
 						</li>
-						<li class="spec">|</li>
+						<li class="sep">
+							|
+						</li>
 						<li>
 							<a href="#">חדשות ומדיה</a>
 						</li>
 					</ul>
 				</nav>
 			</div>
+			<section>
+				<div id="tab-1">
+					<div class="tab">
+						<img class="bg" alt="קמעונאות ומסחר" src="\Paz\images\1908364606615453350.JPG" />
+						<div class="text-tab">
+							<h3>קמעונאות ומסחר</h3>
+							<p>
+								במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית, והשיווקית של הקבוצה, שמתאפיינת בחדשנות, יעילות ומובילות. החטיבה פועלת...
+								<br />
+							</p>
+							<a href="#">קרא עוד ...</a>
+						</div>
+					</div>
+					<div class="tab">
+						<img class="bg" alt="זיקוק" src="\Paz\images\Picture-046410251500.jpg" />
+						<div class="text-tab">
+							<h3>זיקוק</h3>
+							<p>
+								פז זיקוק אשדוד (פז"א) היא חטיבת הזיקוק של קבוצת פז.
+								החטיבה עוסקת בניהול פעילות בית הזיקוק באשדוד, הכוללת ייצור תזקיקי נפט...
+								<br />
+							</p>
+							<a href="#">קרא עוד ...</a>
+						</div>
+					</div>
+					<div class="tab">
+						<img class="bg" alt="תעשיות ושרותים" src="\Paz\images\פזקר_-291_354410564000.jpg" />
+						<div class="text-tab">
+							<h3>תעשיות ושרותים</h3>
+							<p>
+								תחת חטיבת התעשיות והשירותים של פז פועלות מספר חברות בנות, המתמחות בפיתוח,
+								ייצור ושיווק מוצרי לוואי של נפט, ומובילות את השוק...
+								<br />
+							</p>
+							<a href="#">קרא עוד ...</a>
+						</div>
+					</div>
+				</div>
+				<div id="tab-2">
+					<div class="cube">
+						<h3>כרטיס אשראי שופרסל וכרטיס אשראי יש</h3>
+						<img src="/Paz/images/paz_250x110059890678.jpg">
+						<a href"#">לפרטים נוספים</a>
+					</div>
+					<div class="cube">
+						<div class="fotorama"
+						data-width="100%"
+						data-ratio="800/600"
+						data-loop="true"
+						data-nav="false"
+						arrows="false"
+						data-autoplay="true"
+						data-direction="rtl">
+							<img src="/Paz/images/banner_atar.jpg" data-caption="מכונת קפה LaVaaza">
+							<img src="/Paz/images/paz_250x110103131473.jpg" data-caption="שטחי מסחר פז סנטר">
+							<img src="/Paz/images/250X110668568400.jpg" data-caption="טיפז">
+						</div>
+						<a href"#">לפרטים נוספים</a>
+					</div>
+					<div class="cube" id="cube-road">
+						<h3>התחנות שלנו בדרך שלך</h3>
+						<img src="/Paz/images/Untitled-3058756287.jpg">
+						<div id="text">
+							<p>
+								<a href="#">צפון</a>
+							</p>
+							<p>
+								<a href="#">מרכז</a>
+							</p>
+							<p>
+								<a href="#">דרום</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
 		</div>
+
+		<footer>
+			<div id="footer-menu">
+				<ul class="menlvl-1">
+					<li>
+						<a id="fblink" href="#"></a>
+					</li>
+					<li class="sep">
+						|
+					</li>
+					<li>
+						<a href="#" title="קישור ל En">En</a>
+					</li>
+					<li class="sep">
+						|
+					</li>
+					<li>
+						<a title="קישור לעמוד הבית" href="\Paz\index-paz.html">עמוד הבית</a>
+					</li>
+					<li class="sep">
+						|
+					</li>
+					<li>
+						<a title="קישור למחירונים" href="#">מחירונים</a>
+					</li>
+					<li class="sep">
+						|
+					</li>
+					<li>
+						<a title="קישור לקריירה" href="#">קריירה</a>
+					</li>
+					<li class="sep">
+						|
+					</li>
+					<li>
+						<a title="קישור לתנאי שימוש" href="#">תנאי שימוש</a>
+					</li>
+					<li class="sep">
+						|
+					</li>
+					<li>
+						<a title="קישור לנגישות" href="#">נגישות</a>
+					</li>
+					<li class="sep">
+						|
+					</li>
+					<li>
+						<a title="קישור למפת אתר" href="#">מפת אתר</a>
+					</li>
+					<li class="sep">
+						|
+					</li>
+					<li>
+						<a title="קישור צור קשר" href="#">צור קשר</a>
+					</li>
+					<li class="sep">
+						|
+					</li>
+					<li>
+						<a title="קישור להודעות והליכים משפטיים" href="#">הודעות והליכים משפטיים</a>
+					</li>
+
+				</ul>
+			</div>
+		</footer>
 	</body>
 </html>
