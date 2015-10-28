@@ -1,0 +1,91 @@
+/* Side Menu  */
+
+.sideMenu {
+	float: right;
+	
+	margin-left: 22px;
+}
+
+.sideMenu ul{
+	border-top: 1px solid gray;
+	padding: 0;
+}
+
+.sideMenu ul li {
+	display:block;
+	width: 122px;
+	min-height: 36px;
+}
+
+.sideMenu ul li a {
+	display:block;
+	text-decoration: none;
+	width:110px;
+	height:36px;
+	padding-right:12px;
+	font-size: 13px;
+	line-height: 32px;
+	background: url('/Paz/images/side_menu_sprite.png') no-repeat 0 0;
+}
+
+.sideMenu ul li a:hover,
+.sideMenu ul li a.selected {
+	background-position: -122px 0;	
+}
+
+/* Text content  */
+
+#content {
+	float: right;
+	width: 440px;
+	margin-left:22px;
+	font-size:12px;
+}
+
+#breadcrumbs {
+	margin-bottom: 25px;
+}
+
+#content h1 {
+	font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    padding-bottom: 4px;
+}
+
+#content h2 {
+	font: 12px bold;
+}
+
+#content p {
+	margin-bottom: 12px;
+	text-align: justify;
+}
+
+
+.sideCube {
+	float: right;
+	width: 292px;
+	margin-top: 36px;
+	background: url('/Paz/images/cube_bg.png') no-repeat 0 0;
+}
+
+.sideCube h3 {
+    font-size: 14px;
+    margin: 14px 12px 0px 0;
+    padding-right: 14px;
+}
+
+.sideCube h2 {
+	font-size: 12px;
+    padding: 5px 24px 0 0;
+    margin-bottom: 0;
+}
+
+.sideCube p {
+	font-size: 13px;
+	padding: 0 30px 0 0;
+}
+
+
+

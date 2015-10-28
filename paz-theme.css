@@ -15,6 +15,31 @@ p, h3 {
 	padding: 0;
 }
 
+body {
+}
+
+/* Responsivy */
+
+@media screen and (max-width:600px){
+	body {
+	overflow: scroll;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	}
+	#mainmenu {
+		display: none;
+	}
+	.tab {
+		clear: both;
+	}
+}
+
+/* Main Page */
+
 #container{
 	max-width: 900px;
 	margin: 0 auto;
@@ -30,15 +55,15 @@ p, h3 {
 	position: absolute;
 	width:142px;
 	height: 93px;
-	bottom: 0px;
+	bottom: 10px;
 	right: -8px;
 
 }
 
 #serch-box{
 	position: absolute;
-	top:10px;
-	left:10px;
+	top:0px;
+	left:0px;
 }
 
 #inpt-srch{
@@ -59,7 +84,7 @@ p, h3 {
 
 #lang {
 	float: right;
-	padding: 5px 0px 0px 8px;
+	padding: 8px 0px 0px 11px;
 	font-size: 12px;
 	font-weight: bold;
 	color: white;
@@ -68,7 +93,7 @@ p, h3 {
 
 #mainmenu {
 	position: relative;
-	right:120px;
+	right:125px;
 	top: 50px;
 }
 
@@ -79,7 +104,6 @@ p, h3 {
 
 .menlvl-1 li {
 	display: inline-block;
-	list-style:none;
 	font: bold 15px "Arial";
 }
 
@@ -126,9 +150,13 @@ p, h3 {
 }
 
 .sep {
-	margin: 0 8px;
-	color: Wheat;
+	margin: 0 10px;
+	width: 4px;
+	height: 15px;
+	background: url('/Paz/images/menu_sep.png') no-repeat center center;
 }
+
+/* Footer Menu  */
 
 footer {
 	position: fixed;
@@ -176,18 +204,18 @@ section {
 	position: relative;
 }
 
-/*  tab-1  */
+/*  tab-1  
 
 #tab-1 {
 	position: relative;
 }
-
+*/
 .tab {
 	position:relative;
-	width: 293px;
+	width: 290px;
 	height: 355px;
 	float: right;
-	padding: 0px 3px;
+	padding: 0px 5px;
 }
 
 .bg {
@@ -219,11 +247,11 @@ section {
 	background: url("/Paz/images/read_more_white.png") no-repeat left center;
 }
 
-/*  tab-2  */
+/*  tab-2  
 
 #tab-2 {
 	position: relative;
-}
+} */
 
 .cube {
 	position: relative;
