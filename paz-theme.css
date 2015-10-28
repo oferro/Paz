@@ -44,6 +44,7 @@ p, h3 {
 #inpt-srch{
 	padding: 0 10px 0 0;
 	height: 16px;
+	width: 60%;
 	float: right;
 	border-top-right-radius: 0.8em;
 }
@@ -83,9 +84,7 @@ p, h3 {
 }
 
 .menlvl-1 li:hover > .mnulvl-2 {
-	display: list-item;
-	position: absolute;
-	top: 60px;
+	display: block;
 }
 
 .menlvl-1 li a {
@@ -104,14 +103,26 @@ p, h3 {
 .mnulvl-2 {
 	display: none;
 	position:absolute;
-	top:90px;
-	border: solid 2px blue;
+	background: url('/Paz/images/hp_tab_text_bg.png') ;
+	padding: 2px;
+	clear:both;
+	z-index: 1;
 }
 
 .mnulvl-2 li {
-	width: 170px;
-	position: relative;
 	clear: both;
+	display: block;
+	padding: 5px;
+	text-align: right;
+	list-style: none;
+	border-bottom: solid 1px whitesmoke;
+	text-decoration: none;
+}
+
+.mnulvl-2 li a {
+	text-align: center;
+	width: 50px;
+	margin: 0 auto;
 }
 
 .sep {
@@ -155,6 +166,8 @@ footer {
 	margin: 0;
 	padding: 0;
 	display:block;
+	position: relative;
+	top: 9px;
 }
 
 /*  section  */
@@ -244,4 +257,3 @@ section {
 #cube-road a {
 	position:static;
 }
-
