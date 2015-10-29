@@ -141,12 +141,23 @@ body {
 	list-style: none;
 	border-bottom: solid 1px whitesmoke;
 	text-decoration: none;
+	width:100px;
 }
 
 .mnulvl-2 li a {
 	text-align: center;
 	width: 50px;
 	margin: 0 auto;
+	display:block;
+}
+
+ .mnulvl-2 li:hover {
+	display:block;
+	background-color: #00FA9A;
+}
+
+.mnulvl-2 li a:hover {
+	color:blue;
 }
 
 .sep {
