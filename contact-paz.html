@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Paz - אודות</title>
+		<title>Paz -  צור קשר</title>
 		<meta name="description" content="Paz site">
 		<meta name="author" content="OferR">
 
@@ -44,10 +44,10 @@
 						<li class="sep">
 						</li>
 						<li>
-							<a href="#">אודות</a>
+							<a href="/Paz/about-paz.html">אודות</a>
 							<ul class="mnulvl-2">
 								<li>
-									<a href="#">אודות</a>
+									<a href="/Paz/about-paz.html">אודות</a>
 								</li>
 								<li>
 									<a href="#">היסטוריה</a>
@@ -106,61 +106,88 @@
 				<div id="layout">
 					<div class="sideMenu">
 						<ul>
-							<li><a href="#" class="selected">אודות</a></li>
-							<li><a href="#">היסטוריה</a></li>
-							<li><a href="#">חזון וערכים</a></li>
-							<li><a href="#">מבנה הקבוצה</a></li>
-							<li><a href="#">חברי דירקטוריון</a></li>
-							<li><a href="#">הנהלת הקבוצה</a></li>
-							<li><a href="#">פרסים והוקרה</a></li>
+							<li><a href="#" class="selected">צור קשר</a></li>
 						</ul>
 					</div>
 					<div class="content">
 						<div id="breadcrumbs">
 							<a class="treelink" title="קישור לאתר הבית" href="index-paz.html">עמוד הבית</a>
 							<span class="treeSep"> > </span>
-							<a class="treelink" title="קישור לאודות" href="about-paz.html">אודות</a>
-							<span class="treeSep"> > </span>
-							<span class="treetext">אודות</span>
+							<span class="treetext">צור קשר</span>
 						</div>
-						<h1 class="title">אודות</h1>
-						<div class="text-container">
+						<h1 class="title">צור קשר</h1>
+						<hr />
+					<div id="frmMail">
+						<div id="frmHed">
+							<h3>צור קשר</h3>
 							<h2>
-								חוסן. יזמות. מובילות. אלה היסודות שעליהם נשענים המוניטין של פז. ומוניטין כאלה  שווים פז.
+								ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :
 							</h2>
 							<p>
-								קבוצת פז היא תאגיד  האנרגיה המוביל בישראל, וב-90 שנות קיומה הפכה לאחד המותגים המובילים במשק. 
-								פז מספקת כשליש מתצרוכת מוצרי הנפט בישראל, והיא קבוצת האנרגיה היחידה בארץ שבבעלותה בית זיקוק. 
-								בסוף שנת 2006 הפכה לחברה ציבורית שמניותיה נסחרות בבורסה של תל אביב ובמדד תל אביב 25 (מדד המעו"ף). 
-							</p>
-							<p>
-								הקבוצה עוסקת בזיקוק, ייצור, אחסון, יבוא ושיווק תזקיקי דלק. מלבד בית הזיקוק באשדוד, 
-								בבעלות פז מסופי אחסון וניפוק מוצרי דלק וכן רשת של מאות תחנות תדלוק, חנויות נוחות  ומתחמים קמעונאיים. 
-								קבוצת פז משלבת פעילויות מגוונות בשוק המקומי הכוללות שיווק גפ"מ, 
-								ייצור ושיווק שמנים וכימיקלים, מוצרי איטום לענפי הבנייה והתשתיות, דלק סילוני למטוסים ועוד. 
-							</p>
-							<p>
-								יתרונה המובהק של הקבוצה טמון בפעילותה הורטיקאלית לאורך כל שרשרת הערך. רכישת בית הזיקוק באשדוד, 
-								הבעלות על מאות מתקנים ושיטות התפעול המתקדמות מאפשרות תכנון לוגיסטי ארוך-טווח וסינרגיה אופטימלית בין כל החטיבות. 
-							</p>
-							<p>
-								חוסנה הכלכלי של הקבוצה, לצד שיטות העבודה המתקדמות, 
-								תודעת השירות המפותחת והיכולת לאתר הזדמנויות שיווקיות הציבו את פז בראש חברות האנרגיה בארץ, 
-								והקנו לה מוניטין של חברה מובילה ומקצוענית.
+								* השדות המסומנים בכוכבית (*) הינם שדות חובה
 							</p>
 						</div>
+						<form id="conMail">
+							<div class="frmFild">
+								<label for="mailName1">* שם פרטי</label>
+								<input type="text" name="mailName1" required />
+							</div>
+							<div class="frmFild">
+								<label for="mailName2">* שם משפחה</label>
+								<input type="text" name="mailName2" required />
+							</div>
+							<div class="frmFild">
+								<label for="mailPhone">* טלפון</label>
+								<input type="text" name="mailPhone" required maxlength="11"/>
+							</div>
+							<div class="frmFild">
+								<label for="mail">* E-mail</label>
+								<input type="email" name="mail" required />
+							</div>
+							<div class="frmFild">
+								<textarea rows="3" cols="28" form="conMail" placeholder="תוכן הפניה"></textarea>
+							</div>
+							<div class="frmFild">
+								<button id="mailSend" type="submit">
+									שלח
+								</button>
+							</div>
+						</form>
+						</div>
 					</div>
-					<div class="sideCube">
-							<h3>היסטוריה</h3>
-							<h2>1992</h2>
+					<div class="sideCube" id="cube1">
+							<h3>פרטי יצירת קשר</h3>
+							<h2>פז חברת נפט בע"מ"</h2>
 							<p>
-								חברת פז מוקמת, תחת השם Anglo-Asiatic Petroleum
+								יורו פארק, בניין הולנד
+								<br />
+								קיבוץ יקום 60972
+								<br />
+								טל. שירות לקוחות 1-800-774-774
+								<br />
+								פקס.09-8641714
 							</p>
-							<h2>1927</h2>
+						</div>
+					<div class="sideCube" id="cube2">
+							<h3>עוד בפז</h3>
 							<p>
-								החברה מתחילה לפעול תחת חברת Shell העולמית
+								ליצירת קשר עם דוברות פז
 							</p>
-							<h2>קרא עוד >></h2>
+							<h2><a href="#">
+							לחץ כאן >>
+							</a></h2>
+							<p>
+								ליצירת קשר עם מנהלת קשרי משקיעים
+							</p>
+							<h2><a href="#">
+							לחץ כאן >>
+							</a></h2>
+							<p>
+								רוצים לעבוד בפז?
+							</p>
+							<h2><a href="#">
+							לחץ כאן >>
+							</a></h2>
 						</div>
 				</div>
 			</section>
@@ -218,7 +245,7 @@
 						|
 					</li>
 					<li>
-						<a title="קישור צור קשר" href="/Paz/contact-paz.html">צור קשר</a>
+						<a title="קישור צור קשר" href="#">צור קשר</a>
 					</li>
 					<li class="sep">
 						|
