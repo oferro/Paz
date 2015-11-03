@@ -1,5 +1,5 @@
 body {
-	background-image: url('/Paz/images/header_bg.png');
+	background-image: url('images/header_bg.png');
 	background-repeat: repeat-x; 
 	direction:rtl;
 	text-align: right;
@@ -51,7 +51,7 @@ body {
 }
 
 #logo {
-	background-image: url('/Paz/images/paz_logo.png');
+	background-image: url('images/paz_logo.png');
 	position: absolute;
 	width:142px;
 	height: 93px;
@@ -79,7 +79,7 @@ body {
 	height: 19px;
 	bottom:0px;
 	display:inline-block;
-	background-image: url('/Paz/images/search_button.png');
+	background-image: url('images/search_button.png');
 }
 
 #lang {
@@ -117,7 +117,7 @@ body {
 }
 
 #mnu-hom {
-	background: url('/Paz/images/menu_home.png')no-repeat  17px 15px;
+	background: url('images/menu_home.png')no-repeat  17px 15px;
 	background-position: right;
 	display:block;
 	width: 18px;
@@ -127,7 +127,7 @@ body {
 .mnulvl-2 {
 	display: none;
 	position:absolute;
-	background: url('/Paz/images/hp_tab_text_bg.png') ;
+	background: url('images/hp_tab_text_bg.png') ;
 	padding: 2px;
 	clear:both;
 	z-index: 1;
@@ -164,7 +164,7 @@ body {
 	margin: 0 10px;
 	width: 4px;
 	height: 15px;
-	background: url('/Paz/images/menu_sep.png') no-repeat center center;
+	background: url('images/menu_sep.png') no-repeat center center;
 }
 
 /* Footer Menu  */
@@ -173,7 +173,7 @@ footer {
 	position: fixed;
 	width: 100%;
 	bottom: 0;
-	background-image: url('/Paz/images/footer_bg.png');
+	background-image: url('images/footer_bg.png');
 	background-repeat: repeat-x; 
 
 }
@@ -199,7 +199,7 @@ footer {
 }
 
 #fblink {
-	background: url('/Paz/images/fb_icon.png') no-repeat 0 0;
+	background: url('images/fb_icon.png') no-repeat 0 0;
 	width: 18px;
 	height: 18px;
 	margin: 0;
@@ -242,7 +242,7 @@ section {
 	padding: 10px;
 	font-size: 13px;
 	color: white;
-	background: url('/Paz/images/hp_tab_text_bg.png') no-repeat 0 0;
+	background: url('images/hp_tab_text_bg.png') no-repeat 0 0;
 }
 
 .text-tab p {
@@ -255,7 +255,7 @@ section {
 	float: left;
 	bottom: 10px;
 	padding-left: 10px;
-	background: url("/Paz/images/read_more_white.png") no-repeat left center;
+	background: url("images/read_more_white.png") no-repeat left center;
 }
 
 /*  tab-2  
@@ -271,7 +271,7 @@ section {
 	height: 216px;
 	margin: 15px 3px;
 	padding: 0 20px;
-	background: url('/Paz/images/small_cube_bg.png') no-repeat 0 0;
+	background: url('images/small_cube_bg.png') no-repeat 0 0;
 }
 
 .cube h3 {
@@ -286,7 +286,7 @@ section {
 	bottom: 10px;
 	padding-left: 10px;
 	font-size:12px;
-	background: url("/Paz/images/read_more_yellow.png") no-repeat left center;
+	background: url("images/read_more_yellow.png") no-repeat left center;
 }
 
 #cube-road img {

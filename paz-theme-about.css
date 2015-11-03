@@ -25,7 +25,7 @@
 	padding-right:12px;
 	font-size: 13px;
 	line-height: 32px;
-	background: url('/Paz/images/side_menu_sprite.png') no-repeat 0 0;
+	background: url('images/side_menu_sprite.png') no-repeat 0 0;
 }
 
 .sideMenu ul li a:hover,
@@ -67,7 +67,7 @@
 	float: right;
 	width: 292px;
 	margin-top: 36px;
-	background: url('/Paz/images/cube_bg.png') no-repeat 0 0;
+	background: url('images/cube_bg.png') no-repeat 0 0;
 }
 
 
@@ -131,7 +131,7 @@
 	font-size: 12px;
 	width: 383px;
 	height: 300px;
-	background: url('/Paz/images/contact_form_bg.png') no-repeat 0 0;
+	background: url('images/contact_form_bg.png') no-repeat 0 0;
 	border-top-right-radius: 0.8em;
 }
 
